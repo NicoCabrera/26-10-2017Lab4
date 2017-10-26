@@ -1,0 +1,25 @@
+Servicios:
+
+Jugadores(Archivo,Filtro)			Filtro= gano,perdio,todas
+!
+!___Retorna Promesa
+
+
+
+ArchivosJugadores(Archivo)
+!
+!
+!___ Retorna Promesa
+
+
+Esos dos métodos se deben encontrar en dos servicios diferentes
+
+Crear un componentes con tabs: Todos, ganó, perdio
+
+Según la pestaña seleccionada se ejecuta alguno de los
+metodos del servicio
+
+
+En la api-rest hay que tener un metodo que lea el archivo:
+Los parametros son un string con el nombre del archivo Y/o
+el filtro que se aplica sobre los usuarios.
