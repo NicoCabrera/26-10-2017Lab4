@@ -1,0 +1,33 @@
+Servicios:
+
+Jugadores(Archivo,Filtro)			Filtro= gano,perdio,todas
+!
+!___Retorna Promesa
+
+
+
+ArchivosJugadores(Archivo)
+!
+!
+!___ Retorna Promesa
+
+
+Esos dos m�todos en un servicio
+
+Crear un componentes con tabs: Todos, gan�, perdio
+
+Seg�n la pesta�a seleccionada se ejecuta alguno de los
+metodos del servicio
+
+
+En la api-rest hay que tener un metodo que lea el archivo
+
+
+Volvimos a ver ng-smart-table
+Para la clase que viene ver @Pipe
+Para hacer por ejemplo
+name:cuit formateado
+name: sexo que devuelva femenino o masculino
+name: puntaje malo < 3000
+bueno <8000
+muy bueno 8000 a 10000
